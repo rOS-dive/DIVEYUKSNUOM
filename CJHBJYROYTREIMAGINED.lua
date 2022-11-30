@@ -7,7 +7,7 @@
 		Thickness = 2, -- Thickness of each line
 		Offset = 3, -- Offset from the middle point
 		Dot = false, -- not recommended
-		FollowCursor = true, -- Crosshair follows the cursor
+		FollowCursor = false, -- Crosshair follows the cursor
 		HideMouseIcon = true, -- Hides the mouse icon, set to 0 to ignore
 		HideGameCrosshair = true, -- Hides the current game's crosshair (if its supported)
 		ToggleKey = Enum.KeyCode.RightAlt, -- Toggles crosshair visibility
