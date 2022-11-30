@@ -1,4 +1,5 @@
-	-- Custom Crosshair
+--[[
+-- Custom Crosshair
 	getgenv().CrosshairSettings = {
 		Color = Color3.fromRGB(255,0,0),
 		RainbowColor = false,
@@ -186,7 +187,7 @@
 	game:GetService("RunService").RenderStepped:Connect(function()
 		game.CoreGui.snippethub.counterb.Visible = false
 	end)
-
+]]
 	local function CreateInstance(cls,props)
 		local inst = Instance.new(cls)
 		for i,v in pairs(props) do
