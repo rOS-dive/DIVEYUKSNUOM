@@ -1,4 +1,9 @@
 game:GetService("RunService").RenderStepped:Connect(function()
+for i,v in pairs(game.CoreGui.Orion:GetChildren()) do
+    if v:FindFirstChild("UICorner") then
+        v.Name = "UI"
+    end
+end
 game.CoreGui.Orion.UI.TopBar.TextLabel.Text = "rOS+"
 end)
 
@@ -30,8 +35,4 @@ Tab:AddToggle({
 	end    
 })
 
-for i,v in pairs(game.CoreGui.Orion:GetChildren()) do
-    if v:FindFirstChild("UICorner") then
-        v.Name = "UI"
-    end
-end
+game.CoreGui.Orion.Name = "rOS+"
