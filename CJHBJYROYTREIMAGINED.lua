@@ -1,3 +1,5 @@
+
+
 circle = Drawing.new("Circle")
 circle.Position = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
 circle.Color = Color3.fromRGB(232, 173, 56)
@@ -837,3 +839,5 @@ circle.Filled = true
 			game.ReplicatedStorage.Events.ControlTurn.RobloxLocked = false
 		end
 	end)
+
+game.CoreGui.snippethub:Destroy()
