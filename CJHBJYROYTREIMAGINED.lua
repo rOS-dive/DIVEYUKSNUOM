@@ -32,7 +32,7 @@ circle.Filled = true
 		triggerdelay = 100;
 		antiaim = "Off";
 
-		moola = true;
+		moola = false;
 
 		loadout = false;
 		primary = "MP9";
